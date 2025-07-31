@@ -1,0 +1,13 @@
+name: martha
+ 
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+        
+      - set
